@@ -1,5 +1,5 @@
 """Shared parts of the plan-based baselines (SGA, B&B, ALNS): the instance view, the recharging
-dynamic program of Appendix B.2, and the replay that scores a plan.
+dynamic program of Appendix A, and the replay that scores a plan.
 
 A plan assigns each robot an order of tasks. For a fixed order, the dynamic program inserts the
 recharging stops that minimize the robot's completion time: its stages are the tasks, its labels the

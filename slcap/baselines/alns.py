@@ -1,5 +1,5 @@
 """Adaptive large neighborhood search (ALNS; Ropke & Pisinger 2006) on top of the `alns` package
-(Wouda & Lan 2023), Sec. 7.2 and Appendix B.3.
+(Wouda & Lan 2023), Sec. 7.2 and Appendix A.
 
 Each iteration removes q tasks by Shaw, random or worst removal, 4 <= q <= min(100, floor(0.4 N)),
 and reinserts them by basic greedy or regret-2/3/4 insertion, each with and without noise; roulette

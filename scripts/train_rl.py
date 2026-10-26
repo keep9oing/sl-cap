@@ -1,4 +1,4 @@
-"""Train RL-CAP: the same policy, trained by REINFORCE (Sec. 7.2 and Appendix B.4).
+"""Train RL-CAP: the same policy, trained by REINFORCE (Sec. 7.2 and Appendix A).
 
 Each step samples one trajectory for each of --instances instances; its return is
 -(C_max + 10 * unserved tasks), and the advantage is the return minus that of the greedy trajectory of
