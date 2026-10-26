@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slcap"
+version = "0.1.0"
+description = "SL-CAP: an attention policy for multi-robot task allocation with recharging, and its baselines"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "torch==2.8.*",
+    "numpy",
+    "scipy",
+    "numba>=0.67,<0.68",
+    "alns==7.0.0",
+    "pytest",
+]
+
+[tool.setuptools]
+packages = ["slcap", "slcap.baselines"]
